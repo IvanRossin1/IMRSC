@@ -1,0 +1,81 @@
+    #gif{
+        height: 300px;
+        width: 300px;
+        margin: auto;
+        display: flex;
+        background-size: cover;
+    }
+    img{
+        height: 400px;
+        width: 400px;
+    
+    } 
+    .contenedor1{
+        background-image: url(fondo2.jpg);
+        border: solid 15px yellow;
+        width: 420px;
+        height: 580px;
+        margin: auto;
+        background-size: cover;
+    }
+    .contenedor2{
+        display: flex;
+        justify-content: space-between;
+        padding: 0 20px;
+        
+    }
+    .titulo{
+        font-size: 25pt;
+        padding-left: 15px; 
+    }
+    .vida{
+        display: flex;
+        align-items: center;
+        color: red;
+        font-size: 20pt;
+        font-weight: 1000;
+    }
+    .imagen{
+        height: 300px;
+        width: 380px;
+        justify-content: center;
+        margin: auto;
+        border: inset 7px rgb(223, 188, 34);
+        background-image: url(fondo.webp);
+        background-size: cover;
+        margin-bottom: 15px;
+        box-shadow: 0px 10px 10px 0px black;
+    }
+    .contenedor3{
+        width: 370px;
+        font-size: 15pt;
+        padding: 8px;
+        border: 3px inset rgb(156, 133, 28);
+        display: flex;
+        margin: auto;
+        justify-content: space-between;
+        background-color: rgb(233, 213, 103);
+        margin-bottom: 25px;
+    
+    }
+    .contenedor4{
+        width: 300px;
+        display: flexbox;
+        display: flex;
+        margin: auto;
+        align-items: center;
+    }
+    .titulo2{
+        font-size: 19pt;
+    }
+    
+    .contenido{
+        margin: auto;
+        justify-content: end;
+    }
+    .icono img{
+        width: 90px;
+        height: 90px;
+    }
+
+

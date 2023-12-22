@@ -1,0 +1,20 @@
+*{
+    color: white;
+}
+body{
+    background-color: #080f28;
+}
+img{
+    width: 200px;
+}
+.cont-prin{
+    display: flex;
+    flex-wrap: wrap;
+}
+.contenedor{
+    width: 200px;
+}
+.medio{
+    justify-content: center;
+    display: flex;
+}

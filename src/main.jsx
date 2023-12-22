@@ -1,10 +1,14 @@
 import React from 'react'
-import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
-import './index.css'
+import ReactDom from 'react-dom/client'
+import FormularioCV from './Cv';
+ReactDom.createRoot(document.getElementById('root')).render(
+    <React.StrictMode>
+        <>
+        
+        <FormularioCV/>
 
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-)
+        </>
+    </React.StrictMode>
+    
+);
+ 
